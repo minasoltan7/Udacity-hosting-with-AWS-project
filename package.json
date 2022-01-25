@@ -17,7 +17,7 @@
   },
   "author": "Mina Soultan",
   "license": "ISC",
-  "homepage": "https://github.com/minasoltan7/Host-a-Fullstack-application-project-3-Udacity-advanced-web-development-track",
+  "homepage": "https://github.com/minasoltan7/Udacity-hosting-with-AWS-project",
   "dependencies": {
     "is-core-module": "^2.4.0"
   }
