@@ -1,43 +1,53 @@
 # Udagram
 
-Codebase of a full stack sample application to be hosted on AWS (S3, EB, RDS) .
+This is project number 3 in Udacity Advanced Fullstack Development
+The task of this project is to employ the Udagram project and host in on AWS services and having a CI/CD for any future builds.
+Udagram is a starder code given to deploy the project only.
 
-## Getting started
+The AWS services used for this project are:-
+- RDS for hosting our database
+- EB for hosting our backend files
+- S3 for hosting our frontend files 
 
-Provision the necessary AWS services needed for running the application:
+The project is available at
 
-1. Provision a publicly available AWS RDS database running Postgres.
-2. Provision an AWS S3 bucket for hosting the uploaded files.
-3. Export the ENV variables needed or use [dotenv](https://www.npmjs.com/package/dotenv).
-4. `cd starter/udagram-api` and install the node_modules `npm install`.
-5. After installation is done start the api in dev mode with `npm run dev`.
-6. `cd starter/udagram-frontend` and intall the node_modules `npm install`.
-7. sAfter installation is done start the api in dev mode with `npm run start`.
+http://udagram7777.s3-website-us-east-1.amazonaws.com 
 
-### Dependencies / Infrastructure
 
-```
-- Node v14.15.1 (LTS) or more recent
-- npm 6.14.8 (LTS) or more recent
-- AWS CLI v2
-- A RDS database running Postgres
-- An S3 bucket for hosting uploaded pictures
+## Screenshots of the project running services
 
-```
+### Postgres Relational Database Service (RDS)
 
-## Testing
+![Postgres Relational Database Service](./Documentations/images/1-RDS_availability.png)
 
-This project contains two different test suites: unit tests and End-To-End tests (e2e). Follow these steps to run them: 
+### Elastic Beanstalk for Backend 
 
-1. `cd starter/udagram-frontend`
-1. `npm run test`
-1. `npm run e2e`
+![Elastic Beanstalk for Backend](./Documentations/images/2-EB_environment_OK_health)
 
-### Tests:
+### Frontend S3 Bucket
 
-- Unit tests are using the Jasmine Framework.
-- The e2e tests are using Protractor and Jasmine.
-- There are no Unit test on the back-end
+![Frontend S3 Bucket](./Documentations/images/3-S3_Bucket_accessibility)
+
+### CircleCi last Build
+
+![CircleCi last Build](./Documentations/images/4-CircleCi_last_build)
+
+### CircleCI Pipeline
+
+![CircleCI Pipeline 1](./Documentations/images/5-CircleCi_steps-1)
+
+![CircleCI Pipeline](./Documentations/images/5-CircleCi_steps-2)
+
+CircleCi environments
+
+![CircleCI Pipeline environment variables](./Documentations/images/7-CircleCi_enviromental_variables)
+
+
+## Built With
+
+- [Angular](https://angular.io/) - Single Page Application Framework
+- [Node](https://nodejs.org) - Javascript Runtime
+- [Express](https://expressjs.com/) - Javascript API Framework
 
 ## License
 
