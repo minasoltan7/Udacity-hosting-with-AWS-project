@@ -1,6 +1,6 @@
 # Udagram
 
-Codebase of a full stack sample application to be hosted on AWS (S3, EB, RDS).
+Codebase of a full stack sample application to be hosted on AWS (S3, EB, RDS) .
 
 ## Getting started
 
