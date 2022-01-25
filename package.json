@@ -1,0 +1,24 @@
+{
+  "name": "deploy-a-fullstack-application",
+  "version": "1.0.0",
+  "description": "Udagram is a sample application for practicing deployment processes",
+  "main": "index.js",
+  "scripts": {
+    "frontend:test": "cd udagram-frontend && npm run ci:test",
+    "frontend:install": "cd udagram-frontend && npm install",
+    "frontend:build": "cd udagram-frontend && npm run build",
+    "frontend:deploy": "cd udagram-frontend && npm run deploy",
+    "backend:install": "cd udagram-api && npm install",
+    "backend:build": "cd udagram-api && npm run build",
+    "backend:deploy": "cd udagram-api && eb deploy"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Mina Soultan",
+  "license": "ISC",
+  "homepage": "https://github.com/minasoltan7/Host-a-Fullstack-application-project-3-Udacity-advanced-web-development-track",
+  "dependencies": {
+    "is-core-module": "^2.4.0"
+  }
+}
