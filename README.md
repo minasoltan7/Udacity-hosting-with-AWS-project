@@ -1,7 +1,7 @@
 # Udagram
 
 This is project number 3 in Udacity Advanced Fullstack Development track.
-The task of this project is to employ the Udagram project and host it on AWS services and having a CI/CD for any future builds.
+The task of this project is to deploy the Udagram project and host it on AWS services and having a CI/CD for any future builds.
 Udagram is a starder code given to deploy the project only.
 
 The AWS services used for this project are:-
