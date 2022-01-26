@@ -48,6 +48,9 @@ CircleCi environments
 
 ![7-CircleCi enviromental variables](https://user-images.githubusercontent.com/74107578/151080338-100d0540-e5ae-4c0e-afc8-5c115c0c1b24.png)
 
+Infrastructure diagram
+
+![infra](https://user-images.githubusercontent.com/74107578/151087443-211bf360-1441-4e91-8708-a84138449a4f.png)
 
 ## Built With
 
