@@ -16,5 +16,4 @@ The future commits pushed to our project will automatically update our hosted la
 9. Backend run tests
 10. Backend deploy
 
-## Schema
 
